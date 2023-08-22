@@ -10,6 +10,8 @@ O semestre ainda ainda tá rolando e novas atualizações serão voltadas para a
 - [ ] TP02 ( estruturas de dados lineares e ordenação )
 - [ ] TP03 ( estruturas de dados flexíveis e ordenação )
 - [ ] TP04 ( árvores )
+- [ ] Algoritmos de Ordenação
+- [ ] Algoritmos de Pesquisa
 
 Todos as pastas são compostas por um trabalho prático, cada pasta contêm n outras pastas, cada uma correspondente por uma questão, cada questão possui entrada/saída própria.
 
