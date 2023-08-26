@@ -6,14 +6,15 @@
 
 O semestre ainda ainda tá rolando e novas atualizações serão voltadas para as seguintes tarefas:
 
-- [ ] TP01 ( manipulação de strings )
+- [x] TP01 ( manipulação de strings )
 - [ ] TP02 ( estruturas de dados lineares e ordenação )
 - [ ] TP03 ( estruturas de dados flexíveis e ordenação )
 - [ ] TP04 ( árvores )
+- [ ] Estruturas de dados lineares
 - [ ] Algoritmos de Ordenação
 - [ ] Algoritmos de Pesquisa
 
-Todos as pastas são compostas por um trabalho prático, cada pasta contêm n outras pastas, cada uma correspondente por uma questão, cada questão possui entrada/saída própria.
+Todos as pastas de TPs são compostas por um trabalho prático, cada pasta contêm n outras pastas, cada uma correspondente por uma questão, cada questão possui entrada/saída própria.
 
 * As questões são desenvolvidas utilizando-se da classe MyIO.java que também está disponível neste mesmo repositório
 
