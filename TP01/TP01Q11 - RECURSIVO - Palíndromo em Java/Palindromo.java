@@ -1,9 +1,9 @@
-//TP01Q01 - Palindromo em java
+//TP01Q11 - Palindromo em java
 //@author: Vitória Símil Araújo
 
 public class Palindromo {
-    private static boolean isFim(String input) {
-        return (input.charAt(0) == 'F' && input.charAt(1) == 'I' && input.charAt(2) == 'M');
+    private static boolean isFim(String entrie) {
+        return entrie.equals("FIM");
     }
 
     public static boolean isPalindrome(String entrie) {

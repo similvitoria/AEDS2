@@ -2,8 +2,8 @@
 //@author: Vitória Símil Araújo
 
 public class Ciframento {
-    private static boolean isFim(String entrie) {
-        return entrie.equals("FIM");
+    private static boolean isFim(String input) {
+        return (input.charAt(0) == 'F' && input.charAt(1) == 'I' && input.charAt(2) == 'M');
     }
 
     public static String execute(String entrie) {
