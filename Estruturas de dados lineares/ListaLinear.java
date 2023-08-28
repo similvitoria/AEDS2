@@ -138,6 +138,7 @@ class Lista {
 
 public class ListaLinear {
     public static void main(String[] args) {
+        //dados
         final Lista lista = new Lista(3);
         
         //exemplos de comandos
