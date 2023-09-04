@@ -10,7 +10,7 @@ O semestre ainda ainda tá rolando e novas atualizações serão voltadas para a
 - [ ] TP02 ( estruturas de dados lineares e ordenação )
 - [ ] TP03 ( estruturas de dados flexíveis e ordenação )
 - [ ] TP04 ( árvores )
-- [ ] Estruturas de dados lineares
+- [X] Estruturas de dados lineares
 - [ ] Algoritmos de Ordenação
 - [ ] Algoritmos de Pesquisa
 
