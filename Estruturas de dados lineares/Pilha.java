@@ -22,11 +22,10 @@ class FILO {
      * 
      * @param elemento
      */
-    public void empilhar(int elemento) {
+    public void empilhar(int elemento) throws Exception{
         if ( n == array.length )
         {
-            System.out.println("array cheio");
-            return;
+            throw new Exception("array cheio");
         }
         
         array[n] = elemento;
@@ -37,10 +36,9 @@ class FILO {
      * 
      * @return
      */
-    public int desempilhar() {
+    public int desempilhar() throws Exception{
         if( n == 0 ) {
-            System.out.println("array vazio");
-            return - 1;
+            throw new Exception("array vazio");
         }
         return array[--n];
     }
@@ -56,7 +54,7 @@ class FILO {
 }
 
 public class Pilha {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         //dados
         final FILO pilha = new FILO(3);
 

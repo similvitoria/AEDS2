@@ -22,10 +22,9 @@ class Lista {
      * 
      * @param elemento
      */
-    public void inserirNoInicio(int elemento) {
+    public void inserirNoInicio(int elemento) throws Exception {
         if ( n >= array.length ) {
-            System.out.println("array cheio");
-            return;
+            throw new Exception("array cheio");
         }
 
         //levar elementos para o fim do array
@@ -41,10 +40,9 @@ class Lista {
      * 
      * @param elemento
      */
-    public void inserirNoFim(int elemento) {
+    public void inserirNoFim(int elemento) throws Exception {
         if ( n >= array.length ) {
-            System.out.println("array cheio");
-            return;
+            throw new Exception("array cheio");
         }
 
         array[n] = elemento;
@@ -56,10 +54,9 @@ class Lista {
      * @param elemento
      * @param pos
      */
-    public void inserir(int elemento, int pos) {
+    public void inserir(int elemento, int pos) throws Exception {
         if ( n >= array.length || pos < 0 || pos > n ) {
-            System.out.println("array cheio ou posição inválida");
-            return;
+            throw new Exception("array cheio ou posição inválida");
         }
 
         for(int i = n; i > pos; i++ ) {
@@ -74,10 +71,9 @@ class Lista {
      * 
      * @return
      */
-    public int removerNoInicio() {
+    public int removerNoInicio() throws Exception {
         if ( n == 0) {
-            System.out.println("array vazio");
-            return -1;
+            throw new Exception("array vazio");
         }
 
         int elemento = array[0];
@@ -96,10 +92,9 @@ class Lista {
      * 
      * @return
      */
-    public int removerNoFim() {
+    public int removerNoFim() throws Exception {
         if ( n == 0 ) {
-            System.out.println("array vazio");
-            return -1;
+            throw new Exception("array vazio");
         }
         
         return array[--n];
@@ -110,10 +105,9 @@ class Lista {
      * @param pos
      * @return
      */
-    public int remover(int pos) {
+    public int remover(int pos) throws Exception {
         if ( n <= 0 || pos < 0 || pos >= n) {
-            System.out.println("array vazio ou posição inválida");
-            return -1;
+            throw new Exception("array vazio ou posição inválida");
         }
 
         int elemento = array[pos];
@@ -137,7 +131,7 @@ class Lista {
 }
 
 public class ListaLinear {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         //dados
         final Lista lista = new Lista(3);
         
