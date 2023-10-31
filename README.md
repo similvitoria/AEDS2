@@ -7,7 +7,7 @@
 O semestre ainda ainda tá rolando e novas atualizações serão voltadas para as seguintes tarefas:
 
 - [x] TP01 ( manipulação de strings )
-- [ ] TP02 ( estruturas de dados lineares e ordenação )
+- [x] TP02 ( estruturas de dados lineares e ordenação )
 - [ ] TP03 ( estruturas de dados flexíveis e ordenação )
 - [ ] TP04 ( árvores )
 - [X] Estruturas de dados lineares
