@@ -1,0 +1,1 @@
+740136	189ms	3534comparações	3153movimentações
