@@ -1,6 +1,6 @@
 # 🚀 Repositório de AEDS2
 
-> Este é um repositório que contêm todos os trabalhos e exercícios pedidos na matéria de Algoritmos e Estruturas de Dados 2.
+> Este é um repositório que contêm todos os trabalhos e exercícios propostos na matéria de Algoritmos e Estruturas de Dados 2.
 
 ### ☕ O semestre
 
