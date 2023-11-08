@@ -11,7 +11,8 @@ O semestre ainda ainda tá rolando e novas atualizações serão voltadas para a
 - [ ] TP03 ( estruturas de dados flexíveis e ordenação )
 - [ ] TP04 ( árvores )
 - [X] Estruturas de dados lineares
-- [ ] Algoritmos de Ordenação
+- [X] Estruturas de dados flexíveis
+- [X] Algoritmos de Ordenação
 - [ ] Algoritmos de Pesquisa
 
 Todos as pastas de TPs são compostas por um trabalho prático, cada pasta contêm n outras pastas, cada uma correspondente por uma questão, cada questão possui entrada/saída própria.
