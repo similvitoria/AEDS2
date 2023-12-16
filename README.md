@@ -4,7 +4,7 @@
 
 ### ☕ O semestre
 
-O semestre ainda ainda tá rolando e novas atualizações serão voltadas para as seguintes tarefas:
+O semestre terminou e as tarefas foram organizadas hein:
 
 - [x] TP01 ( manipulação de strings )
 - [x] TP02 ( estruturas de dados lineares e ordenação )
@@ -13,7 +13,6 @@ O semestre ainda ainda tá rolando e novas atualizações serão voltadas para a
 - [X] Estruturas de dados lineares
 - [X] Estruturas de dados flexíveis
 - [X] Algoritmos de Ordenação
-- [ ] Algoritmos de Pesquisa
 
 Todos as pastas de TPs são compostas por um trabalho prático, cada pasta contêm n outras pastas, cada uma correspondente por uma questão, cada questão possui entrada/saída própria.
 
